@@ -1,0 +1,10 @@
+# Traffic & Pollution Prediction dependencies
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+prophet
+plotly
+jupyter
