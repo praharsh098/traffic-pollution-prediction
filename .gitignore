@@ -1,17 +1,40 @@
-# Ignore data
-/data/*.csv
-
-# Ignore notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Ignore virtual environment
+# Virtual environments
+.venv/
 venv/
-.env/
+ENV/
 
-# Ignore outputs
-/outputs/*.csv
-/outputs/plots/*.png
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*.out.ipynb
+*.nbconvert.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and outputs
+outputs/
+!outputs/.gitkeep
+!outputs/plots/.gitkeep
+
+data/*.csv
+!data/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Tools
+.idea/
+.vscode/
+
+# Cache
+**/.mypy_cache/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.cache/
