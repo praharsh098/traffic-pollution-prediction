@@ -38,3 +38,7 @@ logs/
 **/.pytest_cache/
 **/.ruff_cache/
 **/.cache/
+
+# Streamlit
+.streamlit/
+*.db

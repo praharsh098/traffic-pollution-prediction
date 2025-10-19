@@ -8,3 +8,4 @@ statsmodels
 prophet
 plotly
 jupyter
+streamlit
